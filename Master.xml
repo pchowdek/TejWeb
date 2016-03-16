@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Tej_Web_Automation" >
+<listeners>
+		<listener class-name="com.tejweb.ExtentReporterNG" />
+</listeners>  
+      <parameter name="browser" value="ff"></parameter>
+      <parameter name="url" value="http://sittej.jiodrive.com/TejWeb/#/home"></parameter>
+      <parameter name="timeout" value="30"></parameter>
+      <parameter name="UserMail" value="run@gmail.com"></parameter>	
+      <parameter name="FullName" value="MacNewbie47 hgj"></parameter>
+	  <parameter name="email" value="Macnewbie7@gmail.com"></parameter>
+	  <parameter name="PWD" value="jiotej1234"></parameter>
+	  <parameter name="Mobile" value="8654788763"></parameter>
+      <parameter name="GoogleUserName" value="Macnewbie.jio"></parameter>
+      <parameter name="GoogleUserPassword" value="Cpat1234"></parameter>
+      <parameter name="UserPassword" value="virender"></parameter>
+      <parameter name="ValidUserName" value="run@gmail.com"></parameter>
+      <parameter name="InvalidUserName" value="dsavirender"></parameter>
+      <parameter name="InvalidPassword" value="rtvirender"></parameter>
+   <test name="Sanity_Suite_Chrome">  
+    <classes>
+   		 
+    	<class name="com.tejweb.sanityTest.Sanity_Suite"></class>
+    	    	 
+     </classes>
+  </test> 
+</suite> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

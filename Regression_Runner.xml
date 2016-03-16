@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Tej_Web_Regression_Run">
+ 	 <listeners>
+		<listener class-name="com.tejweb.ExtentReporterNG" />
+	</listeners>  
+	<parameter name="invalidmail" value="Abhijeet.l.Goswami@ril.com"></parameter>
+	<parameter name="invalidusername" value="Abhijeet.l.Goswami@ril.com"></parameter>
+	<parameter name="invalidpassword" value="loliko"></parameter>
+	<parameter name="username" value="Abhijeet.A.Goswami@ril.com"></parameter>
+	<parameter name="password" value="Password@2016"></parameter>
+	<parameter name="name" value="Random User" />
+	<parameter name="email" value="kl" />
+	<parameter name="mobileuser" value="ankitaandroid@tej.com" />
+	<parameter name="mobilepwd" value="ankitaankita" />
+	<parameter name="gusernm" value="abhijeetg033" /> 
+	<parameter name="gpwd" value="Password@15"></parameter>
+	<parameter name="fname" value="ABHI"></parameter>
+	<parameter name="URL" value="http://sittej.jiodrive.com/TejWeb"></parameter>
+	<parameter name="protectedURL" value="http://10.135.85.90/TejWeb/#/home"></parameter>
+	 <test name="REgression_Suite_Chromium">
+		<parameter name="browser" value="firefox" />
+		<classes>
+		    
+			<class name="com.tejweb.pageobjects.Regression_Test_Sprint05"></class>
+			
+		</classes>
+	</test> 
+	
+</suite> 

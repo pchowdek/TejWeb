@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Tej_Web_Automation">
+ 	 <listeners>
+		<listener class-name="com.tejweb.ExtentReporterNG" />
+	</listeners>  
+	<parameter name="invalidusername" value="As.Jki"></parameter>
+	<parameter name="invalidpassword" value="loliko"></parameter>
+	<parameter name="username" value="Abhijeet.A.Goswami@ril.com"></parameter>
+	<parameter name="password" value="Password@2016"></parameter>
+	<parameter name="name" value="Random User" />
+	<parameter name="email" value="kl" />
+	<parameter name="gusernm" value="abhijeetg033" /> 
+	<parameter name="gpwd" value="Password@15"></parameter>
+	<parameter name="fname" value="ABHI"></parameter>
+	<parameter name="URL" value="http://sittej.jiodrive.com/TejWeb"></parameter>
+	<parameter name="protectedURL" value="http://10.135.85.90/TejWeb/#/home"></parameter>
+	 <test name="Sanity_Suite_Chromium">
+		<parameter name="browser" value="chrome" />
+		<classes>
+		    
+			<class name="com.tejweb.pageobjects.SanityTest"></class>
+			
+		</classes>
+	</test> 
+	
+	<!-- <test name="Sanity_Suite_Mozilla">
+		<parameter name="browser" value="firefox" />
+		<classes>
+		    
+			<class name="com.tejweb.pageobjects.SanityTest"></class>
+			
+		</classes>
+	</test>   -->
+	
+	<!-- <test name="Sanity_Suite_Safari">
+		<parameter name="browser" value="safari" />
+		<classes>
+		    
+			<class name="com.tejweb.pageobjects.SanityTest"></class>
+			
+		</classes>
+	</test>  -->
+	
+
+</suite> 
+ 
